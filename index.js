@@ -9,10 +9,10 @@ function createPerson(name, age) {
 function addPersonAsFriend(person, friend) {
   person.friends.push(friend);
   return person;
-<<<<<<< HEAD
-=======
+}
 
->>>>>>> main
+function addGreetingToPerson(person, greeting) {
+    person.greeting = greeting;
 }
 
 module.exports = {
